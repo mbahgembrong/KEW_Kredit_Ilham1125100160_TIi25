@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".DataPengajuanKreditActivity">
+
+    <Button
+            android:id="@+id/btRefreshKredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="KlikbtRefreshKredit"
+            android:text="REFRESH"/>
+
+    <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top">
+
+        <ScrollView
+                android:id="@+id/verticalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top">
+
+            <TableLayout
+                    android:id="@+id/tbQueryKredit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"/>
+
+        </ScrollView>
+    </HorizontalScrollView>
+</LinearLayout>
