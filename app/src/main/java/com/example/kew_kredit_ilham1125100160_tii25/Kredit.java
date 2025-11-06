@@ -42,6 +42,7 @@ public class Kredit extends Koneksi {
                     "&kdmotor=" + kdmotor + "&hrgtunai=" + hrgtunai + "&dp=" + dp +
                     "&hrgkredit=" + hrgkredit + "&bunga=" + bunga + "&lama=" + lama +
                     "&totalkredit=" + totalkredit + "&angsuran=" + angsuran;
+            url = url.replace(" ", "%20"); // Ganti spasi dengan %20
 
             System.out.println("URL simpan kredit : " + url);
             response = call(url);
