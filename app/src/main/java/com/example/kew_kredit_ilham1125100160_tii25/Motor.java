@@ -6,7 +6,7 @@ public class Motor extends Koneksi {
     // Inisialisasi Server dan URL API
     Server server = new Server();
     String SERVER = server.urlDatabase1();
-    String URL = "http://" + SERVER + "/pemograman-mobile-2-web/tbmotor.php"; // URL lengkap ke script PHP
+    String URL = "http://" + SERVER + "/tbmotor.php"; // URL lengkap ke script PHP
 
     String url = "";
     String response = "";

@@ -5,7 +5,7 @@ public class Petugas extends Koneksi {
     Server server = new Server();
 
     String SERVER = server.urlDatabase1();
-    String URL = "http://" + SERVER + "/pemograman-mobile-2-web/tbpetugas.php";
+    String URL = "http://" + SERVER + "/tbpetugas.php";
     String url = "";
     String response = "";
 

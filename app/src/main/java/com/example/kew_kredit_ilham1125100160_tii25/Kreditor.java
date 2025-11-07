@@ -5,7 +5,7 @@ public class Kreditor extends Koneksi {
     Server server = new Server();
     String SERVER = server.urlDatabase1();
     // Ganti tbmotor.php menjadi tbkreditor.php
-    String URL = "http://" + SERVER + "/pemograman-mobile-2-web/tbkreditor.php";
+    String URL = "http://" + SERVER + "/tbkreditor.php";
     String url = "";
     String response = "";
 

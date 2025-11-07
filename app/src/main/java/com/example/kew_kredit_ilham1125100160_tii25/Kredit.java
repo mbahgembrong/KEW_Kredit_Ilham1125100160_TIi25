@@ -4,7 +4,7 @@ public class Kredit extends Koneksi {
     private long id;
     Server server = new Server();
     String SERVER = server.urlDatabase1();
-    String URL = "http://" + SERVER + "/pemograman-mobile-2-web/tbkredit.php"; // Mengarah ke tbkredit.php
+    String URL = "http://" + SERVER + "/tbkredit.php"; // Mengarah ke tbkredit.php
     String url = "";
     String response = "";
 
